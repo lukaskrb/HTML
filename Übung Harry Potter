@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8"> <!-- Zeichencodierung: UTF-8 unterstützt Umlaute und Sonderzeichen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Für responsives Design auf mobilen Geräten -->
+    <title>Harry Potter Buchkarte</title> <!-- Seitentitel im Browser-Tab -->
+
+    <style>
+        /* Grundstil für den gesamten Seiteninhalt */
+        body {
+            background-color: #f8ebdb; /* Hellbeiger Hintergrund */
+            display: flex; /* Flexbox-Layout aktivieren */
+            justify-content: center; /* Horizontal zentrieren */
+            align-items: center; /* Vertikal zentrieren */
+            height: 100vh; /* Seite nimmt die volle Höhe des Browserfensters ein */
+            font-family: Arial, sans-serif; /* Schriftart setzen */
+            margin: 0; /* Standardabstand des Body entfernen */
+        }
+
+        /* Stil für die Karte (das Buchfeld) */
+        .card {
+            background-color: #4b2b27; /* Dunkelbrauner Hintergrund */
+            color: white; /* Weißer Text */
+            padding: 30px; /* Innenabstand */
+            border-radius: 15px; /* Abgerundete Ecken */
+            width: 400px; /* Feste Breite */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Schatten für 3D-Effekt */
+            text-align: center; /* Text zentrieren */
+        }
+
+        /* Stil für das Buchcover-Bild */
+        .card img {
+            width: 100%; /* Bild passt sich der Kartenbreite an */
+            border-radius: 10px; /* Abgerundete Ecken am Bild */
+            margin-bottom: 20px; /* Abstand nach unten */
+        }
+
+        /* Stil für die Hauptüberschrift */
+        h1 {
+            font-size: 24px; /* Schriftgröße */
+            margin-bottom: 10px; /* Abstand nach unten */
+        }
+
+        /* Standard-Absatzstil */
+        p {
+            margin: 10px 0; /* Oben und unten etwas Abstand */
+        }
+
+        /* Fettung für bestimmte Textteile */
+        b {
+            font-weight: bold; /* Text fett */
+        }
+
+        /* Stil für die Bewertungszeile */
+        .rating {
+            margin-top: 15px; /* Abstand nach oben */
+            font-size: 18px; /* Schriftgröße */
+            color: gold; /* Goldene Sterne */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Inhalt der Visitenkarte -->
+    <div class="card">
+        <!-- Buchcover -->
+        <img src="90e6a854-6ca6-45e3-89a2-9c77dd661128.png" alt="Harry Potter Cover">
+
+        <!-- Titel -->
+        <h1>Harry Potter und der Stein der Weisen</h1>
+
+        <!-- Untertitel -->
+        <p>Buchcover von Harry Potter und der Stein der Weisen</p>
+
+        <!-- Beschreibung -->
+        <p>
+            Ein junger Zauberer begibt sich auf eine Reise, um die magische Welt zu entdecken
+            und ein großes Geheimnis zu lüften.
+        </p>
+
+        <!-- Autor -->
+        <p><b>Autor/in:</b> J.K. Rowling</p>
+
+        <!-- Bewertung -->
+        <p class="rating">⭐️⭐️⭐️⭐️⭐️ (5/5 Sterne)</p>
+    </div>
+
+</body>
+</html>
